@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'narfreadme.scg',
+    logo: 'narfreadme.svg',
     logoLink: 'https://narfreadme.com',
     title:
       "<a href='https://narfreadme.com'><img class='img-responsive' src='narfreadme.svg' alt='Learn logo' /></a>",
@@ -16,14 +16,14 @@ const config = {
     social: `<li>
 		    <a href="https://twitter.com/joebiden" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
+		        <img src='narfreadme.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
 		  </li>
 			<li>
 		    <a href="https://discordapp.com/invite" target="_blank" rel="noopener">
 		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		        <img src='narfreadme.svg' alt={'Discord'}/>
 		      </div>
 		    </a>
 		  </li>`,
@@ -54,8 +54,8 @@ const config = {
     title: 'Narf Readme',
     description: 'All the readmes',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    docsLocation: 'https://github.com/Jenpatrick/narfreadme/content',
+    favicon: '',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
